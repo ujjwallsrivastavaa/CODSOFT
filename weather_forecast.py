@@ -15,7 +15,6 @@ def get_weather():
 
     weather_label.config(text=f"Temperature: {temperature}°C\nHumidity: {humidity}%\nWind Speed: {wind_speed} m/s\nDescription: {weather_description}")
 
-# GUI setup
 root = tk.Tk()
 root.title("Weather Forecast")
 
